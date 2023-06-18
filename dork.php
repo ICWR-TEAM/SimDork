@@ -46,7 +46,7 @@ while(true){
 	cari($search,$no_page[$x++]);
 	echo "Continue or Not(Y/n): ";
 	$opsi = trim(fgets(STDIN));
-	if($opsi==="y"){
+	if(strtolower($opsi)==="y"){
 		continue;
 	}else{
 		exit;
